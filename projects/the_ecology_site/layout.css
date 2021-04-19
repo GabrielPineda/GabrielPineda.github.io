@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+article,aside,figcaption,figure,footer,header,main,nav,section
+{
+	display: block;
+}
+address,article,aside,blockquote,body,cite,div,dl,dt,dd,em,figcaption,figure,footer,h1,h2,h3,h4,h5,h6,header,
+html,img,li,main,nav,ol,p,section,span,ul
+{
+	background:transparent;
+	font-size: 100%;
+	margin:0;
+	padding:0;
+	vertical-align: baseline;
+}
+nav ul
+{
+	list-style: none;
+	list-style-image: none;
+}
+button,input
+{
+    border: none;
+    background: none;
+}
+body
+{
+    width: 100%;
+}
+.topnav
+{
+    width: 100%;
+    min-width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    font-family: 'Montserrat';
+    color: rgb(12, 12, 12);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: sticky;
+    top:0;
+    border-bottom:1px solid gray;
+    
+}
+.topnav li a
+{
+    letter-spacing: 2px;
+    padding-left: 70px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 10pt;
+    transition-duration:0.3s;
+}
+.topnav li a:hover
+{
+    color:green;
+    font-size: 15pt;
+}
+.topnav ul
+{
+    display: flex;
+}
+.banner-row
+{
+    top: 0px;
+    width: 100%;
+    height: 650px;
+    background-image: url('trees10.jpg');
+    background-size: cover;
+    padding-top: 150px;
+}
+.banner-row div
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    width: 75%;
+    margin: auto;
+}
+.banner-row div h1
+{
+    font-size: 50pt;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.banner-row div p
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid rgb(0, 0, 0);
+    width: 50%;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin: auto;
+}
+.banner-row div h6
+{
+    letter-spacing: 10px;
+}
+.banner-row div button
+{
+    width: 15%;
+    min-width: 200px;
+    height: 75px;
+    font-size: 15pt;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-left: 40%;
+}
+.section-header
+{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 25pt;
+}
+.section-header#members
+{
+    text-align: left;
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+.section-header#news-header
+{
+    color: white;
+}
+.news-row
+{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    padding-bottom: 20px;
+}
+.news-row .news-column
+{
+    margin-left: 50px;
+    width: 20%;
+    height: 100%;
+}
+.news-row img
+{
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    border-bottom: 2px solid rgb(25, 48, 19);
+}
+.news-row .news-column h1
+{
+    text-align: left;
+    font-size: 14pt;
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+.news-row .news-column h2
+{
+    text-align: left;
+    font-size: 10pt;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.news-row .news-column .news-content
+{
+    height: 50%;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: rgb(0, 190, 63);
+}
+.news-row .news-column .news-content p
+{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 10pt;
+    color: white;
+    text-align: justify;
+}
+.members-row
+{
+    margin-top: 5%;
+    width: 100%;
+    height: 475px;
+    display: flex;
+}
+.members-column
+{
+    margin: auto;
+    width: 23%;
+    height: 100%;
+    border: 1.5px solid rgb(184, 184, 184);
+}
+.members-column .members-person
+{
+    width: 100%;
+    height: 65%;
+    padding-top: 40px;
+}
+.members-column .members-person img
+{
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    margin-left: 75px;
+}
+.members-column .members-person h1
+{
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-size: 16pt;
+    color: cadetblue;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1.5px solid rgb(223, 223, 223);
+    padding-bottom: 20px;
+}
+.members-column .members-person p
+{
+    width: 70%;
+    font-family: 'Montserrat';
+    text-align: left;
+    font-size: 11pt;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 20px;
+    margin:auto;
+}
+.members-column .members-person button
+{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    width: 75px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background: #379683;
+}
+.members-column .members-person .members-buttons
+{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.members-column .members-person .img-space
+{
+    width: 200px;
+    height: 200px;
+    border-radius:50% 50% 50% 50%;
+    background-image: url('profile1.jpg');
+    background-size: cover;
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+}
+.members-header
+{
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+}
+.members-header h1
+{
+    width: 25%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.members-header div
+{
+    width: 25%;
+}
+.members-header div input
+{
+    width: 100%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border-bottom: 1.5px solid rgb(138, 138, 138);
+}
+.contain
+{
+    background-color: rgb(255, 255, 255);
+}
+.news-row#newspage
+{
+    margin-top: 5%;
+    width: 100%;
+    border-bottom: 1.5px solid gray;
+}
+.contain#newspage
+{
+    background: white;
+}
+.news-row2
+{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.news-row2 .news-column2
+{
+    border-right: 1px solid gray;
+    padding: 5%;
+    width: 72.5%;
+    height: 100%;
+}
+.news-row2 .news-sidebar
+{
+    width: 22.5%;
+    height: 100%;
+}
+.news-column2 .news-content2
+{
+    height: 30%;
+    width: 90%;
+    margin-top: 3%;
+    display: flex;
+}
+.news-column2 .news-content2 img
+{
+    height: 100%;
+    width: 40%;
+}
+.news-column2 .news-content2 .news-article
+{
+    font-family: 'Montserrat';
+    font-size: 11pt;
+    width: 60%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.news-column2 .news-content2 .news-article h1
+{
+    font-weight: bold;
+    text-align: left;
+    font-size: 14pt;
+}
+.news-sidebar2
+{
+    width: 30%;
+}
+.news-column2 .news-content2 .news-article p
+{
+    text-align: justify;
+}
+.news-column2 .news-content2 .news-article h2
+{
+    font-weight: bolder;
+    text-align: left;
+    font-size: 10pt;
+    color: gray;
+}
+.news-sidebar2 .sidebar-row
+{
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 15%;
+    width: 90%;
+}
+.news-sidebar2 h1
+{
+    padding-top: 30px;
+    font-size: 20pt;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.news-sidebar2 .sidebar-row .sidebar-column
+{
+    height: 100%;
+    width: 75%;
+    margin: auto;
+}
+.news-sidebar2 .sidebar-row .sidebar-column h1
+{
+    font-family: 'Montserrat';
+    font-size: 11pt;
+    font-weight: bold;
+}
+.news-sidebar2 .sidebar-row .sidebar-column h2
+{
+    padding-left: 15px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 9pt;
+    font-weight: bold;
+}
+.app-foot
+{
+    margin-top: 5%;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+}
+.app-foot .footer-row
+{
+    padding: 50px;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.contain#events2
+{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.news-row2#events2
+{
+    margin-left:15%;
+    border-left: 1px solid gray;
+}
+.signup_region
+{
+    width: 100%;
+    border: 1px solid gray;
+    height: 600px;
+}
+.signup_region .signup_form
+{
+    display: flex;
+    margin:auto;
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
+    border: 1px solid gray;
+}
+.signup_region .signup_form .signup_column
+{
+    width: 50%;
+    border-right: 1px solid gray;
+    height: 100%;
+}
+.signup_region .signup_form .signup_column .input-group
+{
+    padding-left: 20px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 40px;
+}
+.signup_region .signup_form .signup_column .input-group input
+{
+    width: 80%;
+    border-bottom: 1.5px solid gray;
+}
+.signup_region .signup_form .signup_column .input-group button
+{
+    margin: auto;
+    width: 30%;
+    color: white;
+    background-color: blue;
+}
+.signup_region .signup_form#login
+{
+    height: 400px;
+    width: 30%;
+}
+.signup_region .signup_form .signup_column#login
+{
+    width: 100%;
+}
+.signup_region .signup_form .signup_column#login .input-group
+{
+    margin: auto;
+    padding-left: 20px;
+    width: 70%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 40px;
+}
+.signup_region .signup_form .signup_column .input-group#buttons
+{
+    margin-top: 20px;
+}

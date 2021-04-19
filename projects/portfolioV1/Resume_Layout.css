@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:url('BackgroundImage5.jpg')100%/cover;
+  background-size: cover;
+}
+.Main{
+  width: 450px;
+  background: rgba(1, 1, 1, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  transition: 1.5s;
+}
+.Main:hover
+{
+  background: rgba(255,255,255,0.4);
+  color: black;
+  transition-duration: 1s;
+}
+.Profile{
+  border-radius: 50%;
+  border: solid;
+  width: 200px;
+  height: 200px;
+}
+.Main h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.Main h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.Main pre{
+  text-align: justify;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.Objective
+{
+  width: 95%;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin:auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  transition: 1.5s;
+}
+.Objective li
+{
+  width: 50%;
+  padding-left: 25%;
+  text-align: justify;
+  padding-left: 43%;
+}
+.Objective p
+{
+  width: 50%;
+  padding-left: 25%;
+  text-align: justify;
+}
+.Education
+{
+  width: 95%;
+  background: rgba(0,0,0,0.3);
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin: auto;
+  margin-bottom: 3%;
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  transition: 1.5s;
+}
+.Schools
+{
+  color: white;
+  margin: auto;
+}
+.Schools td
+{
+  color: white;
+  padding-left:75px;
+  padding-right: 75px;
+  padding-top: 20px;
+}

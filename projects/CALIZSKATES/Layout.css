@@ -1,0 +1,222 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height:500px;
+	background-size: cover;
+}
+nav
+{
+	background: #0a0a0a;
+	color: white;
+	padding-left: 250px;
+	font-family: montserrat;
+	display: block;
+	height: 45px;
+}
+li 
+{
+  float: left;
+}
+
+li a 
+{
+  display: block;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  transition:1s;
+}
+
+li a:hover 
+{
+  background-color: white;
+  color: black;
+  transition-duration: 0.75s;
+}
+.TITLE
+{
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 25%;
+	font-family: montserrat;
+	text-align: center;
+	font-size: 45px;
+	color: white;
+	max-height: 250px;
+	background-color: #0a0a0a;
+}
+.TITLE2
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	width: 100%;
+	font-family: montserrat;
+	text-align: center;
+	font-size: 45px;
+	color: white;
+	max-height: 250px;
+	background-color: #0a0a0a;
+}
+.UNDER
+{
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 25%;
+	font-family: montserrat;
+	text-align: center;
+	font-size: 45px;
+	color: #0a0a0a;
+	max-height: 250px;
+}
+.SearchBar
+{
+  padding: 6px 10px;
+  margin-top: 8px;
+  background: white;
+  font-size: 17px;
+  border: none;
+
+}
+.BackImage
+{
+	width: 100%;
+	margin:auto;
+	background: url("BackgroundImage7.jpg")100%/cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+.BackImage2
+{
+	width: 100%;
+	background: url("BACKIMAGE2.jpg")100%/cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+.BackImage4
+{
+	width: 100%;
+	background: url("BACKIMAGE4.jpg")100%/cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+.HorizontalLine
+{
+	margin-top: 0;
+	border-top: 5px solid;
+}
+header
+{
+	width: 100%;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	text-align: center;
+	color: white;
+	font-size: 75px;
+	font-family: 'montserrat';
+	background: #0a0a0a;
+}
+.ROW
+{
+	text-align: center;
+}
+.CATEGORIES {
+    display: inline-block;
+    margin: 20px;
+}
+.CATEGORIES img {
+    vertical-align: top;
+    border: 2px solid;
+    width: 225px;
+    height: 225px;
+}
+.CATEGORIES figcaption {
+	margin: 3%;
+    text-align: center;
+    font-family: 'montserrat';
+    font-size:20px;
+}
+.CATEGORIES img:hover
+{
+	cursor: pointer;
+	border: solid;
+}
+.PRODUCT {
+    display: inline-block;
+    margin: 20px;
+}
+.PRODUCT img {
+    vertical-align: top;
+    width: 225px;
+    height: 225px;
+}
+.PRODUCT figcaption {
+	margin: 3%;
+    text-align: center;
+    font-family: 'montserrat';
+    font-size:15px;
+}
+.PRODUCT:hover
+{
+	cursor: pointer;
+	border:solid;
+	transition-duration: 0.1s;
+}
+.History
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'montserrat', sans-serif;
+}
+.HISTORY_DESCRIPTION
+{
+	width: 50%;
+	text-align: center;
+}
+.Objective
+{
+  width: 70%;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin:auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: black;
+}
+.Objective p
+{
+  font-family: 'Montserrat',sans-serif;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.Objective img
+{
+  width: 750px;
+  height: 500px;
+}
+.Objective li
+{
+  font-family: 'montserrat';
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+}
